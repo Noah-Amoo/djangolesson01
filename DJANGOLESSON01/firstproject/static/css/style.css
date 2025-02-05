@@ -23,11 +23,13 @@ nav {
 main {
     flex-grow: 1;
     display: grid;
-    place-content: center;
+    place-content: start;
 }
 
-h1, p {
-    text-align: center;
+h1,
+p {
+    text-align: left;
+    padding: 1rem 2rem;
 }
 
 a {
@@ -38,4 +40,3 @@ a {
 a:hover {
     opacity: .85;
 }
-
